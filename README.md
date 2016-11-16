@@ -62,10 +62,17 @@ amzSpy.scrapeAmazonProductPage(requestObject).then(data => {
         num_reviews
     } = data
     console.log(result)
+}).catch(err => {
+  console.log(err)
 })
 
 
 ```
+
+##### Error handling
+
+If an error occurs the functions will return errors in an Object Format {error : 'Error type'}
+This section will be completed ASAP
 
 ##### Responsabililites
 I am not responsible for how you use this library. You have to respect the rules written by Amazon
