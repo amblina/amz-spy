@@ -24,6 +24,8 @@ This method returns a promise and needs to be called after scrapeAmazonProductPa
 Example :
 
 ```javascript
+const amzSpy = require('amz-spy')
+
 const requestObject = {
 	url : 'THE PRODUCT URL',
     method : 'GET',
