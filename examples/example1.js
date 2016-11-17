@@ -30,13 +30,13 @@ amzSpy.scrapeAmazonProductPage(requestObject).then(data => {
     return amazon.getAmazonInventoryInfo(requestParams, productInfo);
 }).then(data => {
 	//Info returned by getAmazonInventoryInfo
-    const result{
+    const {
     	date,
     	inventory,
-        price,
-        sales_rank,
-        merchant_id,
-        num_reviews
+      price,
+      sales_rank,
+      merchant_id,
+      num_reviews
     } = data
     console.log(result)
 })
