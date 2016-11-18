@@ -1,6 +1,6 @@
 {
   "name": "amz-spy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Helpful library to get the remaining inventory of a product",
   "main": "main.js",
   "repository": {
