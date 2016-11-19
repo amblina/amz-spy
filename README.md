@@ -39,7 +39,7 @@ amzSpy.scrapeAmazonProductPage(requestObject).then(data => {
 	const requestParams = {
     	url : data.formUrl,
         form : data.postData,
-        proxy : 'http://'+proxy.ip,
+        proxy : '',
         method : 'POST',
         jar : data.cookieJar
     }
