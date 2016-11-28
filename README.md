@@ -74,5 +74,5 @@ amzSpy.scrapeAmazonProductPage(requestObject).then(data => {
 If an error occurs the functions will return errors in an Object Format {error : 'Error type'}
 This section will be completed ASAP
 
-##### Responsabililites
+##### Liabilities
 I am not responsible for how you use this library. You have to respect the rules written by Amazon
